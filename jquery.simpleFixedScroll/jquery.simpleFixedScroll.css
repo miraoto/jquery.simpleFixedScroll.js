@@ -1,0 +1,17 @@
+.scroll-fixed-top {
+  position: fixed !important;
+  top: 60px;
+  right: 0px;
+  -moz-box-sizing: border-box;
+  display: block;
+  float: left;
+}
+
+.scroll-fixed-bottom {
+  position: fixed !important;
+  bottom: 60px;
+  right: 0px;
+  -moz-box-sizing: border-box;
+  display: block;
+  float: left;
+}
