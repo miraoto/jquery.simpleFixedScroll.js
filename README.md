@@ -7,27 +7,30 @@ How to use
 ---------------------------------------------------------------------
 1. Described jquery.simapleTicker.css and jquery.simpleTicker.css as follows :
 
-    <link href="/jquery.simpleFixedScroll.js/jquery.simpleFixedScroll/jquery.simpleFixedScroll.css" rel="stylesheet">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="/jquery.simpleFixedScroll.js/jquery.simpleFixedScroll/jquery.simpleFixedScroll.js"></script>
-
+``` html
+<link href="/jquery.simpleFixedScroll.js/jquery.simpleFixedScroll/jquery.simpleFixedScroll.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="/jquery.simpleFixedScroll.js/jquery.simpleFixedScroll/jquery.simpleFixedScroll.js"></script>
+```
 
 2. Described target list.
 
-    <div id="main">
-    <div id="contents"></div><!-- /#contents -->
-    <div id="local-nav"></div><!-- /#local-nav- -->
-    </div><!-- /#main- -->
+``` html
+<div id="main">
+<div id="contents"></div><!-- /#contents -->
+<div id="local-nav"></div><!-- /#local-nav- -->
+</div><!-- /#main- -->
+```
 
 3. Described javascript code as follows
 
-    <script>
-    $(function(){
-      $.simpleFixedScroll($("#local-nav"));
-    });
-    </script>
-    </pre>    
-
+``` html
+<script>
+$(function(){
+  $.simpleFixedScroll($("#local-nav"));
+});
+</script>
+```
 
 Related information
 ----------------------------------------------------------------------
